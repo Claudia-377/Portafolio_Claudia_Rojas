@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D9C8BF;
+}
+
+header {
+    background-color: #590E1C;
+}
+
+footer {
+    background-color: #590E1C;
+    color: #ffffff;
+}
+
+#skills, #projects, #contact {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px #590E1C;
+    
+    
+}
+
+.btn-ver-mas {
+    background-color: #590E1C; 
+    color: #ffffff;            
+    border: none;              
+    border-radius: 5px;       
+    padding: 10px 20px;        
+    font-size: 16px;           
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.btn-ver-mas:hover {
+    background-color: #8C5A4F; 
+    color: #ffffff;           
+}
+
+.btn-ver-mas:active {
+    background-color: #6d4c41; 
+}
+.btn-primary{
+    background-color: #8C5A4F; 
+    color: #ffffff;            
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-primary:hover {
+    background-color: #8C5A4F; 
+}
+
+.btn-primary:active {
+    background-color: #6d4c41; 
+}
+.btn-primary:focus {
+    background-color: #6d4c41; 
+    outline: none; 
+}
+
+
+
+
+
+/* Archivo styles.css */
+
+/* Clase para ajustar el tamaño de la imagen */
+.img-small {
+    max-width: 200px; /* Ajusta el ancho máximo según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    
+}
+/* Alineación vertical centrada en la columna */
+.row.align-items-center {
+    display: flex;
+    align-items: center;
+}
+/* Aplica negrita a los títulos principales */
+h2, h3, h5 {
+    font-weight: bold;
+}
+
+/* Archivo styles.css */
+
+/* Ajusta el tamaño de la imagen de las tarjetas */
+.card-img-top {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor de la tarjeta */
+    height: 200px; /* Ajusta la altura de la imagen, cambia este valor según sea necesario */
+    object-fit: cover; /* Mantiene la proporción de la imagen y cubre el área especificada */
+}
+/* Archivo styles.css */
+
+/* Ajusta el tamaño del borde y el espaciado de las tarjetas */
+.card {
+    border: 2px solid #dee2e6; /* Tamaño y color del borde. Cambia el tamaño y color según sea necesario */
+    border-radius: 8px; /* Redondea las esquinas del borde. Ajusta el valor según tu preferencia */
+    padding: 0; /* Elimina el espaciado interno para evitar desbordamientos */
+    margin: 0 auto; /* Centra las tarjetas horizontalmente si el contenedor tiene un ancho definido */
+}
+/* Archivo styles.css */
+
+/* Define el estilo personalizado para el botón */
+.btn-primary {
+    background-color: #590E1C; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border: none; /* Opcional: elimina el borde del botón */
+}
+
+.btn btn-primary:hover {
+    background-color: #8C5A4F; /* Color de fondo cuando se pasa el mouse por encima */
+    color: #8C5A4F; /* Color del texto cuando se pasa el mouse por encima */
+}
+.btn-primary:active {
+    background-color: #6d4c41; /* Nuevo color de fondo al hacer clic */
+}
+.btn-primary:focus {
+    background-color: #6d4c41; /* Color después de hacer clic */
+    outline: none; /* Elimina el borde del enfoque */
+}
+
