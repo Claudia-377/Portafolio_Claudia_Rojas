@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.imagen {
+    width: 200px;
+    margin: 10px 10px;
+}
+.titulo2 {
+    padding-top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: end;
+}
+.h4 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.col {
+    padding: 40px;
+    
+}
